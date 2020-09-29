@@ -56,4 +56,8 @@
     conda install numpy
     conda install  psutil
     conda install -c conda-forge   cartopy
+    conda install -c conda-forge netcdf4
+    conda install -c conda-forge cmocean
+    conda install  scikit-learn
+    conda install statsmodels
     ```
