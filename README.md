@@ -61,3 +61,12 @@
     conda install  scikit-learn
     conda install statsmodels
     ```
+
+    ```R
+    R
+    install.packages("pcalg", lib = "~/soft/R", repos='http://cran.us.r-project.org')
+    install.packages("BiocManager", lib = "~/soft/R", repos='http://cran.us.r-project.org')
+    
+    library(BiocManager,lib.loc="~/soft/R")
+    BiocManager::install('ggm', lib = "~/soft/R")
+    ```
