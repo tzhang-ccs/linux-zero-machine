@@ -1,29 +1,27 @@
 # linux-zero-machine
 
-1. miniconda
-2. zsh
-    1. conda install zsh
+- miniconda
+- zsh
+    - conda install zsh
 
     ```bash
     conda install -c conda-forge  zsh
     ```
 
-    1. set zsh as the default shell
-
-    ```bash
+    - set zsh as the default shell by adding the following commands in .bash_profile 
+    ```bash 
     export SHELL=/home/tzhang/soft/zsh/bin/zsh
     exec /home/tzhang/soft/zsh/bin/zsh -l
-
-    in .bash_profile
+    
     ```
 
-    1. oh-my-zsh
+    - oh-my-zsh
 
     ```bash
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
 
-    1. vim
+- vim
 
     ```bash
     alias vi=vim
@@ -32,23 +30,32 @@
     PlugInstall
     ```
 
-3. install package
+- install package
+    - install jupyterlab and extension
 
     ```bash
     #base
 
     conda install jupyterlab
+    
+    conda install -c conda-forge nodejs
     jupyter labextension install @jupyterlab/toc
+    
     jupyter labextension install @jupyterlab/jupyterlab-spreadsheet
     jupyter labextension install @jupyterlab/git
-
+    ```
+    - install general libraries
+    
+    ``` bash 
     conda install  -c conda-forge netcdf4
-    conda install -c conda-forge nodejs
     conda install  -c conda-forge   nco
     conda install  -c conda-forge  cdo
     conda install  -c conda-forge  ncview
     conda install  -c conda-forge  tmux
-
+    ```
+    
+    - create a new environment called as luffy
+    ``` bash 
     #luffy
     conda create -n luffy
     python -m ipykernel install --user --name  luffy
@@ -62,6 +69,8 @@
     conda install statsmodels
     ```
 
+    - install R 
+    
     ```R
     R
     install.packages("pcalg", lib = "~/soft/R", repos='http://cran.us.r-project.org')
