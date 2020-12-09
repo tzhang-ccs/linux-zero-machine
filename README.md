@@ -55,6 +55,9 @@
     conda install  -c conda-forge  tmux
     ```
     
+    - install CDAT
+    > reference: https://github.com/CDAT/cdat/wiki/install
+    
     - create a new environment called as luffy
     ``` bash 
     #luffy
