@@ -32,6 +32,7 @@
 
 - install package
     - install jupyterlab and extension
+    > reference of TOC: https://github.com/jupyterlab/jupyterlab-toc 
 
     ```bash
     #base
