@@ -49,10 +49,10 @@
     
     ``` bash 
     conda install  -c conda-forge netcdf4
-    conda install  -c conda-forge   nco
-    conda install  -c conda-forge  cdo
-    conda install  -c conda-forge  ncview
-    conda install  -c conda-forge  tmux
+    conda install  -c conda-forge nco
+    conda install  -c conda-forge cdo
+    conda install  -c conda-forge ncview
+    conda install  -c conda-forge tmux
     ```
     
     - install CDAT
@@ -66,7 +66,7 @@
     conda install  -c conda-forge -c cdat/label/v8.2.1 cdat
     conda install numpy
     conda install  psutil
-    conda install -c conda-forge   cartopy
+    conda install -c conda-forge cartopy
     conda install -c conda-forge netcdf4
     conda install -c conda-forge cmocean
     conda install  scikit-learn
