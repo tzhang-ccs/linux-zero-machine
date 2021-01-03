@@ -1,6 +1,6 @@
 # linux-zero-machine
 
-- miniconda
+- miniconda [https://docs.conda.io/en/latest/miniconda.html]
 - zsh
     - conda install zsh
 
