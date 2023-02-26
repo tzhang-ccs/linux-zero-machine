@@ -22,8 +22,8 @@
     ```
 
 - git
-  git config --global user.name "XXX"
-  git config --global user.email XXXX
+  - git config --global user.name "XXX"
+  - git config --global user.email XXXX
   
 - vim
 
