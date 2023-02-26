@@ -21,6 +21,10 @@
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
 
+- git
+  git config --global user.name "XXX"
+  git config --global user.email XXXX
+  
 - vim
 
     ```bash
